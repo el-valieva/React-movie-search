@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Setting up the React movie serch application
+## Setting up the React movie search application
 
 1. Create The Movie Database API Key use a link [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
 
