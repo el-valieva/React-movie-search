@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# About this project
 
+This is my study project for demonstration interaction with API. The React CSS Modules Stylesheet approach was used for styling the app components.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Setting up the React movie search application
