@@ -7,19 +7,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Create The Movie Database API Key use a link [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
 
 1. Make your own `.env` file
-
-```bash
+   ```bash
    cp .env.example .env.local
-```
+   ```
 
 1. Open `.env.local` in your favourite text editor/IDE. Set your API Key as a value of `REACT_APP_THE_MOVIE_DB_API_KEY` variable.
 
 1. Install and start
-
-```bash
+   ```bash
    npm install
    npm start
-```
+   ```
 
 ## Available Scripts
 
