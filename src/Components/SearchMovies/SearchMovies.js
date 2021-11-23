@@ -9,8 +9,13 @@ const SearchMovies = () => {
     const [query, setQuery] = useState('')
     const [movies, setMovies] = useState([])
 
+
     const fetchMovies = async (e) => {
         e.preventDefault()
+
+        if (query === '') {
+            return
+        }
 
         const url = `https://api.themoviedb.org/3/search/movie?api_key=${theMovieDBApiKey}&language=en-US&query=${query}&page=1&include_adult=false`
         
@@ -33,6 +38,7 @@ const SearchMovies = () => {
                     name="query" 
                     placeholder="e.g. Back to the Future"
                     value={query}
+                    minLength={1}
                     onChange={(e) => setQuery(e.target.value)} />
                 <button 
                     className={styles.button} 
